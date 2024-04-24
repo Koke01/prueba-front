@@ -6,15 +6,59 @@ body {
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
     background-color: #f9fad2;
+
+
+
 }
+    .formulario-cuadro {
+    width: 300px;
+    padding: 20px;
+    background-color: #E4C59E;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
     
+}
+
+.formulario-cuadro input[type="text"],
+.formulario-cuadro input[type="email"],
+.formulario-cuadro input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+.formulario-cuadro input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    color: #fff;
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
 header{
     text-align: center;
     background-color: #a2825c;
     padding: 20px;
     
 }
-
+h2{
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 nav a:hover {
     transform: translateY(-3px); 
@@ -60,3 +104,5 @@ footer{
     width: 100%;
 
 }
+
+
